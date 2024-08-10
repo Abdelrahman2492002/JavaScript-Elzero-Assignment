@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One.
+      document.getElementById("el").style.color = "red";
+      // The code will not be executed because the element wasn't found.
+    </script>
+    <script>
+      // Code Two.
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+      //This code will work because use window.onload event which executes the code after loading the entire contents of the page.
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three.
+      document.getElementById("el").style.color = "red";
+      // This code will work too because the code is executed line by line and with this the code will be executed.
+    </script>
+  </body>
+</html>
