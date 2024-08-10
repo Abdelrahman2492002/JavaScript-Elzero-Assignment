@@ -1,0 +1,25 @@
+.pop-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f3f4;
+  width: 400px;
+  border: 1px solid #dcdadb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.pop-container button {
+  background-color: #fd0004;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -12.5px;
+  right: -12.5px;
+  cursor: pointer;
+}
